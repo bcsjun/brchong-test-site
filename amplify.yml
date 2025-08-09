@@ -1,0 +1,11 @@
+version: 1
+frontend:
+  phases:
+    build:
+      commands:
+        - echo $PATH
+        - sleep 1m
+  artifacts:
+    files:
+        - index.html
+    baseDirectory: src

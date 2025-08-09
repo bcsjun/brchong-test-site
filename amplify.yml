@@ -7,5 +7,5 @@ frontend:
         - sleep 1m
   artifacts:
     files:
-        - index.html
+        - '**/*'
     baseDirectory: src
